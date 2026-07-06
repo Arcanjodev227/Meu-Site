@@ -256,43 +256,39 @@ footer#contato {
     color: var(--text-dim);
     line-height: 1.4;
 }
+
 .contatos-profissionais {
-    margin-top: 20px;
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contatos-profissionais h3 {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #ffffff;
 }
 
 .btn-contato {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    color: #fff;
+    color: #ffffff !important;
     transition: background-color 0.3s ease;
+    margin: 5px; /* Margem pequena para desgrudar um do outro */
+    min-width: 110px;
 }
+.discord { background-color: #5865F2; }
+.discord:hover { background-color: #4752C4; }
 
-/* Cor customizada para o GitHub (Cinza Escuro/Preto) */
-.github {
-    background-color: #24292e;
-}
-.github:hover {
-    background-color: #555;
-}
+.email { background-color: #008080; }
+.email:hover { background-color: #006666; }
 
-/* Cor customizada para o LinkedIn (Azul) */
-.linkedin {
-    background-color: #0077b5;
-}
-.linkedin:hover {
-    background-color: #005582;
-}
+.github { background-color: #24292e; }
+.github:hover { background-color: #444c56; }
 
-/* Cor customizada para o Discord (Roxo) */
-.discord {
-    background-color: #5865F2;
-}
-.discord:hover {
-    background-color: #404eed;
-}
+.linkedin { background-color: #0077b5; }
+.linkedin:hover { background-color: #005987; }
