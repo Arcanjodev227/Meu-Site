@@ -281,9 +281,6 @@ footer#contato {
     margin: 5px; /* Margem pequena para desgrudar um do outro */
     min-width: 110px;
 }
-.discord { background-color: #5865F2; }
-.discord:hover { background-color: #4752C4; }
-
 .email { background-color: #008080; }
 .email:hover { background-color: #006666; }
 
